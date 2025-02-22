@@ -107,11 +107,11 @@ const TokenFaucet = ({ stellarAddress = "" }: TokenFaucetProps) => {
         type: "success",
         message: "Trustline created successfully"
       });
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Error creating trustline:', error);
       setStatus({
         type: "error",
-        message: error.message || "Failed to create trustline"
+        message: error instanceof Error ? error.message : "Failed to create trustline"
       });
     } finally {
       setIsLoading(false);
