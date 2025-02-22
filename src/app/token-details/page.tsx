@@ -169,7 +169,7 @@ const TokenDetailsPage = () => {
                         </li>
                       </ul>
                       <li>Set the limit if required or leave it blank for the default value.</li>
-                      <li>Click "Sign with wallet extension" and sign the transaction using your Stellar wallet.</li>
+                      <li>Click &quot;Sign with wallet extension&quot; and sign the transaction using your Stellar wallet.</li>
                       <li>Submit the transaction and wait for the confirmation.</li>
                       <li>Verify the trustline addition by checking your account balance in the Stellar Testnet Explorer.</li>
                     </ol>
