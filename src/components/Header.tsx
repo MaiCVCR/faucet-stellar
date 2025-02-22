@@ -21,7 +21,7 @@ const Header = ({ toggleSidebar }: HeaderProps) => {
           <Menu className="h-5 w-5" />
         </Button>
         <div className="flex items-center space-x-2">
-          <Image src="/images/logo.avif" alt="Logo" className="h-8 w-8" />
+          <Image src="/images/logo.avif" alt="Logo" className="h-8 w-8" width={32} height={32} />
           <span className="font-bold">Trustless Work Faucet</span>
         </div>
       </div>
