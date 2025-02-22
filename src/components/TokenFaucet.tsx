@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -65,7 +65,6 @@ const TokenFaucet = ({ stellarAddress = "" }: TokenFaucetProps) => {
         setHasTrustline(data.hasTrustline);
       }    
     } catch (error) {
-      console.log("Error");
       console.error('Error checking trustline:', error);
       setHasTrustline(null);
     } finally {
@@ -100,7 +99,7 @@ const TokenFaucet = ({ stellarAddress = "" }: TokenFaucetProps) => {
         StellarSdk.Networks.TESTNET
       );
 
-      const result = await server.submitTransaction(transaction);
+      await server.submitTransaction(transaction);
       
       await checkTrustline(address);
       setStatus({
