@@ -23,8 +23,8 @@ Git
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/trustless-work-faucet.git
-cd trustless-work-faucet
+git clone https://github.com/MaiCVCR/faucet-stellar.git
+cd faucet-stellar
 ```
 
 ## Account Generation Process
@@ -56,13 +56,14 @@ npx tsx scripts/stellar/createToken.mts
 ```
 
 This script:
-1. Establishes a trustline from the distributor to the issuer
-2. Creates the initial token supply
-3. Transfers tokens to the distribution account
+1. Generate a new token based on the information provided in the .env file
+2. Establishes a trustline from the distributor to the issuer
+3. Creates the initial token supply
+4. Transfers tokens to the distribution account
 
 ### Step 3: Environment Configuration
 
-After generating the accounts and the token, you need to set up your environment variables. Create a `.env` file in your project root with these values:
+After generating the accounts and the token, you need to set up your environment variables. Modify the `.env` file in your project root with these values:
 
 ```env
 # Stellar Network Configuration
@@ -77,8 +78,8 @@ STELLAR_DISTRIBUTOR_PUBLIC_KEY=G... # Copy from generated accounts
 STELLAR_DISTRIBUTOR_SECRET_KEY=S... # Copy from generated accounts
 
 # Token Configuration
-NEXT_PUBLIC_TOKEN_NAME=...    # Copy from generated token
-NEXT_PUBLIC_TOKEN_SYMBOL=...  # Copy from generated token
+NEXT_PUBLIC_TOKEN_NAME=...    # Your token name
+NEXT_PUBLIC_TOKEN_SYMBOL=...  # Your token symbol
 ```
 
 ## Understanding Trustlines
