@@ -35,7 +35,7 @@ const TokenDetailsPage = () => {
             <div className="space-y-2">
               <h1 className="scroll-m-20 text-4xl font-bold tracking-tight">Token Details</h1>
               <p className="text-muted-foreground">
-                Technical documentation for the TRUSTLESS (TRUST) testnet token
+                Technical documentation for the TEST (TST) testnet token
               </p>
             </div>
 
@@ -49,12 +49,12 @@ const TokenDetailsPage = () => {
                     <div className="space-y-6">
                       <div className="space-y-2">
                         <h3 className="text-sm font-medium text-muted-foreground">Name</h3>
-                        <p className="text-lg font-semibold">TRUSTLESS</p>
+                        <p className="text-lg font-semibold">TEST</p>
                       </div>
                       
                       <div className="space-y-2">
                         <h3 className="text-sm font-medium text-muted-foreground">Symbol</h3>
-                        <p className="text-lg font-semibold">TRUST</p>
+                        <p className="text-lg font-semibold">TST</p>
                       </div>
                     </div>
                   </CardContent>
@@ -71,7 +71,7 @@ const TokenDetailsPage = () => {
                       
                       <div className="space-y-2">
                         <h3 className="text-sm font-medium text-muted-foreground">Total Supply</h3>
-                        <p className="text-lg font-semibold">1,000,000,000 TRUST</p>
+                        <p className="text-lg font-semibold">1,000,000,000 TST</p>
                       </div>
                     </div>
                   </CardContent>
@@ -88,17 +88,17 @@ const TokenDetailsPage = () => {
                 <div>
                   <h3 className="text-lg font-medium mb-2 font-semibold">Issuing Account</h3>
                   <pre className="bg-muted p-3 rounded-md font-mono text-sm">
-                    GCHKE3TPY7NSJJFGBN5PC3NB3RORS6JK73BRV3XFJ2HYBP4GEYQ25SPS
+                    GAXWOU3VLUEW2OGGYCKV263E7VF53TGDYCCRRECL5M26RMVWA7DZQ4ZA
                   </pre>
                   <p className="text-sm text-muted-foreground mt-2">
-                    The account that created and issued the TRUST token.
+                    The account that created and issued the TEST token.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-lg font-medium mb-2 font-semibold">Distribution Account</h3>
                   <pre className="bg-muted p-3 rounded-md font-mono text-sm">
-                    GBHUUVKLAM3WOLV3CCTW6QHMDQWI7XIULDDKE4IL4RBNFKZWYVF4SIWB
+                    GCKBD7RL3JDVYRUWTF5AFVZEWKOERCECUH4UH7JUOUFWJENN2BMC3ATW
                   </pre>
                   <p className="text-sm text-muted-foreground mt-2">
                     The account that holds and distributes tokens via the faucet.
@@ -111,7 +111,7 @@ const TokenDetailsPage = () => {
             <section className="space-y-6">
               <h2 className="text-2xl font-semibold tracking-tight border-b border-gray-200 pb-2">Trustline Validation</h2>
               <p>
-                Before requesting tokens, ensure your wallet has a trustline to the TRUST token. If not, you can add it
+                Before requesting tokens, ensure your wallet has a trustline to the TEST token. If not, you can add it
                 automatically or manually:
               </p>
               <div className="space-y-6">
@@ -135,11 +135,11 @@ const TokenDetailsPage = () => {
                       <ul className="ml-6 space-y-2 mt-2">
                         <li className="flex gap-2">
                           <span className="text-primary">•</span>
-                          <span><strong>Asset Code:</strong> TRUST</span>
+                          <span><strong>Asset Code:</strong> TEST</span>
                         </li>
                         <li className="flex gap-2">
                           <span className="text-primary">•</span>
-                          <span><strong>Issuer Account:</strong> GCHKE3TPY7NSJJFGBN5PC3NB3RORS6JK73BRV3XFJ2HYBP4GEYQ25SPS</span>
+                          <span><strong>Issuer Account:</strong> GAXWOU3VLUEW2OGGYCKV263E7VF53TGDYCCRRECL5M26RMVWA7DZQ4ZA</span>
                         </li>
                       </ul>
                       <li>Confirm and save the asset to establish the trustline.</li>
@@ -161,11 +161,11 @@ const TokenDetailsPage = () => {
                       <ul className="ml-6 space-y-2 mt-2">
                         <li className="flex gap-2">
                           <span className="text-primary">•</span>
-                          <span><strong>Asset Code:</strong> TRUST</span>
+                          <span><strong>Asset Code:</strong> TEST</span>
                         </li>
                         <li className="flex gap-2">
                           <span className="text-primary">•</span>
-                          <span><strong>Issuer Account ID:</strong> GCHKE3TPY7NSJJFGBN5PC3NB3RORS6JK73BRV3XFJ2HYBP4GEYQ25SPS</span>
+                          <span><strong>Issuer Account ID:</strong> GAXWOU3VLUEW2OGGYCKV263E7VF53TGDYCCRRECL5M26RMVWA7DZQ4ZA</span>
                         </li>
                       </ul>
                       <li>Set the limit if required or leave it blank for the default value.</li>

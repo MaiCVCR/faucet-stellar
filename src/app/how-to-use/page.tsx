@@ -48,7 +48,7 @@ const HowToUseFaucet = () => {
             <section className="space-y-6">
               <h2 className="text-2xl font-semibold tracking-tight border-b border-gray-200 pb-2">Trustline Configuration</h2>
               <p>
-                The system will check if the entered wallet address has an existing trustline to the TRUST token. 
+                The system will check if the entered wallet address has an existing trustline to the TEST token. 
                 If the trustline is missing, a message will appear prompting the user to add it automatically 
                 using supported wallets such as Freighter or Albedo.
               </p>

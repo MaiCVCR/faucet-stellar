@@ -1,10 +1,10 @@
-# Trustless Work Faucet
+# Faucet
 
 ## Overview  
 
-This project is a **Stellar testnet token faucet**, designed to distribute test tokens for Trustless Work's escrow functionality.  
+This project is a **Stellar testnet token faucet**, designed to distribute test tokens.  
 
-A new token called **TRUST** has been created on the Stellar testnet, along with new accounts for issuing and distributing the token.  
+A new token called **TEST** has been created on the Stellar testnet, along with new accounts for issuing and distributing the token.  
 
 Additionally, the repository includes scripts that allow generating other accounts or test tokens if needed.  
 
@@ -30,8 +30,8 @@ Before setting up, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/trustless-work-faucet.git
-   cd trustless-work-faucet
+   git clone https://github.com/MaiCVCR/faucet-stellar.git
+   cd faucet-stellar
    ```
 2. Install dependencies:
    ```bash
